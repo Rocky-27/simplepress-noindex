@@ -1,4 +1,4 @@
-In order to create a no index solution on the Simple Press Forum for wooddesigner.org please follow the three steps outlined below:
+In order to create a no index solution for a Simple Press Forum please follow the three steps outlined below:
 
 Step 1 - Create the database table
 Import the file called create_wp_sftopics_index_table.sql into your PhpMyAdmin or similar database management software. This will create a pivot table that will track all topics that require a noindex meta tag. There is the option of adding in the user_id of who made the noindex request as well if desired.
